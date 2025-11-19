@@ -192,12 +192,14 @@ display: block;
 .lots__card-list-item {
   width: 334px;
   min-height: 596px;
+  
 
 }
 
 .lots__card-list { 
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   gap: 25px;
   list-style: none;
   color: #FFFFFF;
