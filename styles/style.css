@@ -91,13 +91,8 @@
   inset: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.6);
-  
+  background: rgba(0, 0, 0, 0.6);  
 }
-/*.main {
-  margin: auto;
-}
-*/
 
 .cover__title {
   display: flex;
@@ -112,17 +107,12 @@
   position: relative;
 }
 
-
-
 .aligned-text {  
 display: block;
-
 }
 
 .aligned-text_left { 
-
-  text-align: left;
-  
+  text-align: left;  
 }
 
 .aligned-text_center { 
@@ -136,13 +126,12 @@ display: block;
   font-size: 100px;
   font-weight: 700;
   text-align: right;
-  padding-left: 30px;
-  
+  padding-left: 30px;  
 }
 
 .del__letter-spacing {
   letter-spacing: normal;
-} /*убираут ненужные отступы в конце*/
+} /*убирает ненужные отступы в конце*/
 
 .cover__description {
   display: flex;
@@ -161,9 +150,7 @@ display: block;
 .cover__description-text {
   font-size: 22px;
   font-weight: 400;
-  word-spacing: 18px;
-  
-  
+  word-spacing: 18px;  
 }
 
 .bet-button {
@@ -217,10 +204,10 @@ display: block;
 
 
 
-.card-link {
- 
+.card-link { 
   text-decoration: none;
 }
+
 .card_type_film {
   background-image: url(../images/card-lot-01.jpg);
   background-size: cover;
@@ -276,8 +263,6 @@ display: block;
   margin: 123px 24px 0 26px;
   display: grid;
   grid-template-columns: 334px 1fr;
-  /* column-gap: 24px; */
-  
 }
 
 .about__column {
@@ -286,8 +271,7 @@ display: block;
   gap: 24px;
 }
 
-.about__logo {
-  /* margin: 50px; */
+.about__logo {  
   display: flex;
   justify-content: center;
   align-items: center;
@@ -304,8 +288,7 @@ display: block;
 }
 
 .about__title {
-  padding: 102px 0 99px 0;/**/  
-  justify-content: s;
+  padding: 102px 0 99px 0;  
   font-size: 40px;
   font-weight: 700;
   text-transform: uppercase;
@@ -341,8 +324,7 @@ display: block;
 
 .footer__menu {
   /* padding: 0 191px; */
-  text-align: center;
-  
+  text-align: center;  
   white-space: nowrap;
 }
 
@@ -357,9 +339,7 @@ display: block;
 
 .footer__menu-link {
   font-size: 18px;
-  text-underline-offset: 1px;
- 
-  
+  text-underline-offset: 1px;  
 }
 
 .footer__menu-link_active {
@@ -370,8 +350,7 @@ display: block;
 .footer__social-list {
   display: flex;
   gap: 48px;
-  list-style: none
-  
+  list-style: none;  
 }
 
 .footer__social-list-item {
