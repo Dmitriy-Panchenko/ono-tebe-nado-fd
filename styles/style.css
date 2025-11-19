@@ -202,8 +202,6 @@ display: block;
   
 }
 
-
-
 .card-link { 
   text-decoration: none;
 }
@@ -301,8 +299,7 @@ display: block;
   margin-left: -21px;
   font-size: 20px;
   font-weight: 400;
-  line-height: 24px;
-  
+  line-height: 24px;  
 }
 
 .footer {
@@ -310,7 +307,7 @@ display: block;
   grid-template-columns: 1fr 1fr 1fr;
   padding: 180px 0 0 0; 
   gap: 119px;
-  }
+}
 
 .footer__address{
   width: 260px;
