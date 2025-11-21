@@ -48,17 +48,13 @@
   list-style: none;
 }
 
-.tel__link {
-  text-decoration: underline;
-  text-underline-offset: 4px;
-  font-style: normal;
-}
-
-.mailto__link {
+.address__link {
   text-decoration: underline;
   text-underline-offset: 6px;
   font-style: normal;
+
 }
+
 .header__address {
   /* align-items: flex-start; */
   justify-self: end;
@@ -317,10 +313,6 @@
   list-style: none;
 }
 
-.footer__social-list-item {
-  /* width: 48px;
-  height: 48px; */
-}
 
 .footer__social-icon {
   width: 48px;
